@@ -1,17 +1,25 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Source+Code+Pro&display=swap');
 
 html {
-  background-color: #1f2b3b !important;
-  color: #fff !important;
+  background-color: #96ffce !important;
+  color: #5C573E !important;
   /* font-size: 2em; */
   font-family: "Poppins", sans-serif !important;
 }
 
 body {
-  background-color: #1f2b3b !important;
-  color: #fff !important;
+  background-color: #96ffce !important;
+  color: #324359 !important;
   font-size: 20px !important;
   font-family: "Poppins", sans-serif !important;
+}
+
+#backdrop {
+  position: absolute;
+  background-color: rgba(0, 0, 0);
+  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .code {
@@ -33,7 +41,7 @@ body {
 .icon {
   height: 30px;
   transition: 0.1s ease-in;
-  color: #fff;
+  color: #324359;
 }
 
 .icon:hover {
@@ -47,6 +55,20 @@ body {
   background-color: #324359 !important;
 }
 
+.card-title {
+  color: #96ffce;
+}
+
+.card-link {
+  color: #D4A1F7;
+}
+
+.card-footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
 .card p {
   font-size: 0.7em;
   color: #ccc !important;
@@ -56,6 +78,11 @@ body {
   font-size: 0.7em;
 }
 
-.card:hover {
-  transform: scale(1.09);
+@media (min-width: 1920px) {
+  .card:hover {
+    transform: scale(1.09);
+  }
 }
+
+
+

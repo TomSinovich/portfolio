@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState, useEffect, useContext } from "react"
 import "../style.css"
 import Appbar from "../components/appbar"
 import { graphql } from "gatsby"
@@ -9,23 +9,25 @@ function Projects({ data }) {
   const projectList = data.allProjectsYaml.edges
 
   return (
-    <div className="container-fluid">
-      <Appbar />
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Projects | Sumanth</title>
-      </Helmet>
-      <div className="row">
-        {projectList.map(({ node }) => {
-          return (
-            <Card
-              cardTitle={node.title}
-              cardSubtitle={node.subtitle}
-              link={node.link}
-              key={node.id}
-            />
-          )
-        })}
+    <div>
+      <div className="container-fluid">
+        <Appbar />
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Projects | Tom Sinovich</title>
+        </Helmet>
+        <div className="row">
+          {projectList.map(({ node }) => {
+            return (
+              <Card
+                cardTitle={node.title}
+                cardSubtitle={node.subtitle}
+                link={node.link}
+                key={node.id}
+              />
+            )
+          })}
+        </div>
       </div>
     </div>
   )
@@ -42,6 +44,9 @@ export const query = graphql`
           subtitle
           link
           id
+          date
+          text
+          skills
         }
       }
     }

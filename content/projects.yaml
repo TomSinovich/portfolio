@@ -1,23 +1,35 @@
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: Graceful Shoveler
+  subtitle: You'll dig this way of buying
+  link: https://github.com/graceful-shoppers/Grace-Shopper
+  date: 2019-07-29
+  text: fuuuuuuck
+  skills:
+    - Javascript
+    - React
+    - CSS
+    - Webscraping
+    - Express.js
+    - Postgres
+    - OAuth
 
-- title: Basic Music
-  subtitle: Basic Music Player That lets you to play music
-  link: https://github.com/Mr404Found/Basic-Music-Player
+- title: Splice
+  subtitle: A real-time, multi-user bill splitting mobile app
+  link: https://github.com/splice-capstone/splice
+  date: 2019-08-13
+  skills:
+    - Javascript
+    - React Native
+    - Firebase
+    - Express.js
+    - OAuth
 
-- title: Age Calculator
-  subtitle: Get Your Age
-  link: https://github.com/Mr404Found/AgeCalculator
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
-
-- title: Qr-Code-Application
-  subtitle: A new Flutter project
-  link: https://github.com/Mr404Found/Qr-Code-Application
+- title: Digin
+  subtitle: Web crawler for scraping Home Depot shovel data
+  link: https://github.com/TomSinovich/shovelScraper
+  date: 2019-07-28
+  skills:
+    - Javascript
+    - Node.js
+    - JSON
+    - cheeriojs
+    - Web Scraping
