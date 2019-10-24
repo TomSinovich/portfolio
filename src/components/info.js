@@ -18,6 +18,7 @@ export default () => {
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         Savvy Full Stack Engineer
         <br />
+        <div className="hide-mobile">
         and
         <br />
         <div className="slider">
@@ -29,10 +30,11 @@ export default () => {
             </div>
           </div>
         </div>
+        </div>
       </div>
       <br />
       <div className="h1 code mt-2 mb-3">{"</>"}</div>
-      <div className="h1 mt-5">
+      <div className="h1 mt-5 icon-wrapper">
         <a className="mr-5 icon" href="https://github.com/tomsinovich" target="_blank" rel="noopener noreferrer">
           <Github />
         </a>

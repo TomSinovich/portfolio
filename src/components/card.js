@@ -32,6 +32,10 @@ function card(props) {
       height: 250px;
       @media (max-width: 768px) {
         height: 350px;
+        overflow: auto;
+      }
+      @media (min-width: 992px) {
+        overflow: auto;
       }
     }
     &:checked ~ label::before {

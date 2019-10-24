@@ -217,3 +217,15 @@ body {
 		opacity: 0;
 	}
 }
+
+@media (max-width: 768px) {
+  .hide-mobile {
+    display: none;
+  }
+  .text-justify {
+    text-align: left !important;
+  }
+  .icon-wrapper .mr-5:last-child {
+    margin-right: 0 !important;
+  }
+}
