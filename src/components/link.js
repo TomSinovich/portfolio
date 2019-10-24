@@ -4,17 +4,18 @@ import Link from "gatsby-plugin-transition-link/AniLink"
 export default function Intent({ children, to }) {
   return (
     <Link
-    paintDrip
+      paintDrip
       hex="#D4A1F7"
-      length={.75}
+      length={0.75}
       className="nav-link"
       to={to}
       activeStyle={{
-        color: "#D4A1F7",
-        textDecoration: "underline"
+        color: "#324359",
+        textDecoration: "none",
       }}
       style={{
-        color: "#324359",
+        color: "#D4A1F7",
+        textDecoration: "underline",
       }}
     >
       {children}
