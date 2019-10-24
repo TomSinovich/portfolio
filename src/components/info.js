@@ -18,7 +18,7 @@ export default () => {
       <div className="text-muted mx-5 my-4 h3 text-justify info">
         Savvy Full Stack Engineer
         <br />
-        and a
+        and
         <br />
         <div className="slider">
           <div className="caption">
