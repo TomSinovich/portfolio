@@ -15,7 +15,7 @@ export default () => {
         Tom.
       </div>
       <div className="h1 code mt-4 mb-3">{"<>"}</div>
-      <div className="text-muted mx-5 my-4 h3 text-justify info">
+      <div className="text-muted mx-5 my-4 h3 info">
         Savvy Full Stack Engineer
         <br />
         <div className="hide-mobile">
