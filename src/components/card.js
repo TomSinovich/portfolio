@@ -70,14 +70,14 @@ function card(props) {
               </ExpLabel>
               <div>
                 {video && (
-                  <a href={video} className="card-link">
+                  <a href={video} className="card-link" target="_blank" rel="noopener noreferrer">
                     <Youtube size="2em" />
                   </a>
                 )}
-                {link && <a href={link} className="card-link">
+                {link && <a href={link} className="card-link" target="_blank" rel="noopener noreferrer">
                   <ExternalLink size="2em"/>
                 </a>}
-                <a href={repo} className="card-link">
+                <a href={repo} className="card-link" target="_blank" rel="noopener noreferrer">
                   <Github size="2em" />
                 </a>
               </div>
