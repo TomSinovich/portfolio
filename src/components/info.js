@@ -26,7 +26,7 @@ export default () => {
             <div className="text-box">
               <div>Advocate for Social Justice </div>
               <div>Cat Dad</div>
-              <div>Piano Student</div>
+              <div>Kombucha Brewer</div>
             </div>
           </div>
         </div>
