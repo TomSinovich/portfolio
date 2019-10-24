@@ -118,7 +118,7 @@ body {
 
 .slider{
 	position: relative;
-	/* animation: slideColor 15s forwards infinite; */
+	animation: slideColor 10s forwards infinite;
 }
 
 .caption{
@@ -151,6 +151,7 @@ body {
 .text-box div:nth-child(3){
 	animation: rollDown3 10s forwards infinite;
 }
+
 
 @keyframes rollDown {
 	0%{
@@ -217,7 +218,6 @@ body {
 		opacity: 0;
 	}
 }
-
 
 @media (max-width: 768px) {
   .hide-mobile {
