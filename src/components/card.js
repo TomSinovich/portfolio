@@ -1,16 +1,19 @@
 import React from "react"
-import { FaGithub as Github, FaYoutube as Youtube } from "react-icons/fa"
+import {
+  FaGithub as Github,
+  FaYoutube as Youtube,
+  FaArrowsAltV,
+  FaExternalLinkAlt as ExternalLink
+} from "react-icons/fa"
 import styled from "styled-components"
+import SkillTags from "./skillTags"
 
 function card(props) {
-  const { cardTitle, cardSubtitle, link } = props
-
-  const encodeName = cardTitle.split(" ").join("")
-
-  console.log(encodeName)
+  const { cardTitle, cardSubtitle, link, text, skills, video, repo } = props
+  const nameJoin = cardTitle.split(" ").join("")
 
   const ExpLabel = styled.label`
-    margin-bottom: 0;
+    margin-bottom: 0.2;
     display: block;
     box-sizing: border-box;
     text-align: center;
@@ -25,8 +28,11 @@ function card(props) {
   const ExpInput = styled.input`
     display: none;
     visibility: hidden;
-    &:checked ~ #${`${encodeName}-expand`} {
-      height: 200px;
+    &:checked ~ #${`${nameJoin}-expand`} {
+      height: 250px;
+      @media (max-width: 768px) {
+        height: 350px;
+      }
     }
     &:checked ~ label::before {
       content: "-";
@@ -34,7 +40,7 @@ function card(props) {
   `
 
   const ExpDiv = styled.div`
-    max-height: 0px;
+    height: 0px;
     overflow: hidden;
     transition: height 0.5s;
   `
@@ -48,22 +54,33 @@ function card(props) {
             {cardSubtitle}
           </p>
           <div>
-            <ExpInput type="checkbox" id={`${encodeName}-toggle`} />
-            <ExpDiv id={`${encodeName}-expand`}>
+            <ExpInput type="checkbox" id={`${nameJoin}-toggle`} />
+            <ExpDiv id={`${nameJoin}-expand`}>
               <section>
-                <p>fuck</p>
+                <p>{text}</p>
+              </section>
+              <section>
+                <SkillTags skills={skills}/>
               </section>
             </ExpDiv>
 
             <section className="card-footer-wrapper">
-              {/* <label className="card-link" > */}
-              <ExpLabel className="card-link" htmlFor={`${encodeName}-toggle`}>
-                See
+              <ExpLabel className="card-link" htmlFor={`${nameJoin}-toggle`}>
+                <FaArrowsAltV />
               </ExpLabel>
-              {/* </label> */}
-              <a href={link} className="card-link">
-                <Github size="1.8em" />
-              </a>
+              <div>
+                {video && (
+                  <a href={video} className="card-link">
+                    <Youtube size="2em" />
+                  </a>
+                )}
+                {link && <a href={link} className="card-link">
+                  <ExternalLink size="2em"/>
+                </a>}
+                <a href={repo} className="card-link">
+                  <Github size="2em" />
+                </a>
+              </div>
             </section>
           </div>
         </div>

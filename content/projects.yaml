@@ -1,10 +1,11 @@
 - title: Graceful Shoveler
-  subtitle: You'll dig this way of buying
-  link: https://github.com/graceful-shoppers/Grace-Shopper
+  subtitle: eCommerce site for buying shovels
+  repo: https://github.com/graceful-shoppers/Grace-Shopper
+  link: https://graceful-shoveler.herokuapp.com/
   date: 2019-07-29
-  text: fuuuuuuck
+  text: Graceful Shoveler is a mock (albeit functional to an extent) eCommerce site built in just over a week - I was responsible for developing server-side logic for maintaining user sessions and a persistent user/guest cart using Express.js and PostgreSQL. In addition, I developed components with React and pure CSS including a landing page with parallax scrolling done by hand. Tying it off, I seeded our database with real shovel and 'shovel-like' products from Home Depot.
   skills:
-    - Javascript
+    - JavaScript
     - React
     - CSS
     - Webscraping
@@ -14,10 +15,12 @@
 
 - title: Splice
   subtitle: A real-time, multi-user bill splitting mobile app
-  link: https://github.com/splice-capstone/splice
+  repo: https://github.com/splice-capstone/splice
+  video: https://m.youtube.com/watch?index=18&t=0s&list=PLx0iOsdUOUmnZXS2H9EDbhYMlmh3onWHs&v=ZayiUw42iEA
   date: 2019-08-13
+  text: In a two week sprint, I was tasked with created a project from start with a team; The team decided to learn Cloud Firestore and React Native from sratch. I was assined as the architect and developer for real-time events accommodating multiple users application-wide using Cloud Firestore. I also spent a lot of time developing various screens, layouts, UI and UX components within the app;
   skills:
-    - Javascript
+    - JavaScript
     - React Native
     - Firebase
     - Express.js
@@ -25,10 +28,11 @@
 
 - title: Digin
   subtitle: Web crawler for scraping Home Depot shovel data
-  link: https://github.com/TomSinovich/shovelScraper
+  repo: https://github.com/TomSinovich/shovelScraper
   date: 2019-07-28
+  text: Digin is my first 'foot in the water' experince with web scraping; in this case I created a crawler to scrape Home Depot for their shovel data and shovel-like product data. Using a Queue I was able to enqueue requests using cheeriojs, determine if it was a page to enqueue links or to scrape data, and write the relevant data to my file system using node.
   skills:
-    - Javascript
+    - JavaScript
     - Node.js
     - JSON
     - cheeriojs

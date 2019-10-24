@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from "react"
+import React from "react"
 import "../style.css"
 import Appbar from "../components/appbar"
 import { graphql } from "gatsby"
@@ -24,6 +24,10 @@ function Projects({ data }) {
                 cardSubtitle={node.subtitle}
                 link={node.link}
                 key={node.id}
+                text={node.text}
+                skills={node.skills}
+                video={node.video}
+                repo={node.repo}
               />
             )
           })}
@@ -42,11 +46,13 @@ export const query = graphql`
         node {
           title
           subtitle
+          repo
           link
           id
           date
           text
           skills
+          video
         }
       }
     }

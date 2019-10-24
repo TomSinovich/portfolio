@@ -1,14 +1,11 @@
 import React from "react"
-
 import {
-  FaTwitter as Twitter,
   FaGithub as Github,
-  FaYoutube as Youtube,
   FaInstagram as Insta,
   FaEnvelope as Mail,
 } from "react-icons/fa"
 
-export default function info() {
+export default () => {
   return (
     <div className="container">
       <div className="my-5"></div>
@@ -18,12 +15,21 @@ export default function info() {
       </div>
       <div className="h1 code mt-4 mb-3">{"<>"}</div>
       <div className="text-muted mx-5 my-4 h3 text-justify info">
-        Aspirational, savvy Full Stack Engineer
+        Savvy Full Stack Engineer
         <br />
-        and
+        and a
         <br />
-        Strong advocate for Social Justice
+        <div className="slider">
+          <div className="caption">
+            <div className="text-box">
+              <div>Advocate for Social Justice </div>
+              <div>Cat Dad</div>
+              <div>Piano Student</div>
+            </div>
+          </div>
+        </div>
       </div>
+      <br />
       <div className="h1 code mt-2 mb-3">{"</>"}</div>
       <div className="h1 mt-5">
         <a className="mr-5 icon" href="https://github.com/tomsinovich">
