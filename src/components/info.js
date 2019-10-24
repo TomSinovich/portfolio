@@ -3,6 +3,7 @@ import {
   FaGithub as Github,
   FaInstagram as Insta,
   FaEnvelope as Mail,
+  FaLinkedin as LinkedIn
 } from "react-icons/fa"
 
 export default () => {
@@ -32,14 +33,17 @@ export default () => {
       <br />
       <div className="h1 code mt-2 mb-3">{"</>"}</div>
       <div className="h1 mt-5">
-        <a className="mr-5 icon" href="https://github.com/tomsinovich">
+        <a className="mr-5 icon" href="https://github.com/tomsinovich" target="_blank" rel="noopener noreferrer">
           <Github />
         </a>
-        <a className="mr-5 icon" href="https://www.instagram.com/tomspinach/">
+        <a className="mr-5 icon" href="https://www.instagram.com/tomspinach/" target="_blank" rel="noopener noreferrer">
           <Insta />
         </a>
-        <a className="mr-5 icon" href="mailto:tomsinovich@gmail.com">
+        <a className="mr-5 icon" href="mailto:tomsinovich@gmail.com" target="_blank" rel="noopener noreferrer">
           <Mail />
+        </a>
+        <a className="mr-5 icon" href="https://www.linkedin.com/in/tom-sinovich-25b4a3112/" target="_blank" rel="noopener noreferrer">
+          <LinkedIn />
         </a>
       </div>
     </div>
