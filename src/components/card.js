@@ -69,7 +69,7 @@ function card(props) {
             </ExpDiv>
 
             <section className="card-footer-wrapper">
-              <ExpLabel className="card-link" htmlFor={`${nameJoin}-toggle`}>
+              <ExpLabel className="card-expand" htmlFor={`${nameJoin}-toggle`}>
                 <FaArrowsAltV />
               </ExpLabel>
               <div>

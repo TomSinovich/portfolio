@@ -60,7 +60,11 @@ body {
 }
 
 .card-link {
-  color: #87B3E0;
+  color: #B34F49;
+}
+
+.card-expand {
+	color: #ccc;
 }
 
 .card-footer-wrapper {
@@ -106,15 +110,6 @@ body {
   right: 0;
   top: 0;
 }
-
-/* .tag:hover {
-  background-color: crimson;
-  color: white;
-}
-
-.tag:hover:after {
-  border-left-color: crimson;
-} */
 
 .slider{
 	position: relative;
