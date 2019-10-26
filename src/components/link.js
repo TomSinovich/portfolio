@@ -5,7 +5,7 @@ export default function Intent({ children, to }) {
   return (
     <Link
       paintDrip
-      hex="#D4A1F7"
+      hex="#87B3E0"
       length={0.75}
       className="nav-link"
       to={to}
@@ -14,7 +14,7 @@ export default function Intent({ children, to }) {
         textDecoration: "none",
       }}
       style={{
-        color: "#D4A1F7",
+        color: "#87B3E0",
         textDecoration: "underline",
       }}
     >
