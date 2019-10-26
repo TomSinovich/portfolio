@@ -10,7 +10,7 @@ export default () => {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-4" style={{ color: "#87B3E0" }}>
+      <div className="display-4" style={{ color: "#B34A44" }}>
         <span style={{ color: "#324359" }}>Hey, I'm</span> <br />
         Tom.
       </div>
