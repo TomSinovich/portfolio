@@ -10,9 +10,10 @@ export default () => {
   return (
     <div className="container">
       <div className="my-5"></div>
-      <div className="display-4" style={{ color: "#B34A44" }}>
+      <div className="display-4" style={{ color: "#9E66CC" }}>
         <span style={{ color: "#324359" }}>Hey, I'm</span> <br />
-        Tom.
+        Tom
+        <br/> Sinovich.
       </div>
       <div className="h1 code mt-4 mb-3">{"<>"}</div>
       <div className="text-muted mx-5 my-4 h3 info">
