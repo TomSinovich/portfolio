@@ -13,6 +13,18 @@
     - Postgres
     - OAuth
 
+- title: Digin
+  subtitle: Web crawler for scraping Home Depot shovel data
+  repo: https://github.com/TomSinovich/shovelScraper
+  date: 2019-07-28
+  text: Digin is my first 'foot in the water' experince with web scraping; in this case I created a crawler to scrape Home Depot for their shovel data and shovel-like product data. Using a Queue I was able to enqueue requests using cheeriojs, determine if it was a page to enqueue links or to scrape data, and write the relevant data to my file system using node.
+  skills:
+    - JavaScript
+    - Node.js
+    - JSON
+    - cheeriojs
+    - Web Scraping
+
 - title: Splice
   subtitle: A real-time, multi-user bill splitting mobile app
   repo: https://github.com/splice-capstone/splice
@@ -26,14 +38,14 @@
     - Express.js
     - OAuth
 
-- title: Digin
-  subtitle: Web crawler for scraping Home Depot shovel data
-  repo: https://github.com/TomSinovich/shovelScraper
-  date: 2019-07-28
-  text: Digin is my first 'foot in the water' experince with web scraping; in this case I created a crawler to scrape Home Depot for their shovel data and shovel-like product data. Using a Queue I was able to enqueue requests using cheeriojs, determine if it was a page to enqueue links or to scrape data, and write the relevant data to my file system using node.
+- title: Portfolio
+  subtitle: Simple, clean Portfolio site
+  repo: https://github.com/TomSinovich/portfolio
+  date: 2019-09-11
+  text: GatsbyJS is a incredibly powerfull and intuitive tool to make Static web sites with React. Using React, .yaml driven data, and nothing more than raw JSX, CSS, and a small amount of JavaScript, I was able to create (and currently maintain) a very sleek and mobile-friendly website.
   skills:
+    - GatsbyJS
     - JavaScript
-    - Node.js
-    - JSON
-    - cheeriojs
-    - Web Scraping
+    - React
+    - yaml
+    - CSS
