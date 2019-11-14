@@ -29,13 +29,16 @@ function card(props) {
     display: none;
     visibility: hidden;
     &:checked ~ #${`${nameJoin}-expand`} {
-      height: 250px;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      overflow: auto;
+      padding: 2% 0 2% 0;
       @media (max-width: 768px) {
         height: 350px;
-        overflow: auto;
       }
       @media (min-width: 992px) {
-        overflow: auto;
       }
     }
     &:checked ~ label::before {
@@ -50,7 +53,7 @@ function card(props) {
   `
 
   return (
-    <div className="col-lg-4">
+    <div className="col-lg-6">
       <div className="card mx-3 my-5">
         <div className="card-body" style={{ paddingBottom: 0 }}>
           <h2 className="card-title">{cardTitle}</h2>

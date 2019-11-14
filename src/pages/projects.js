@@ -16,7 +16,7 @@ function Projects({ data }) {
           <meta charSet="utf-8" />
           <title>Projects | Tom Sinovich</title>
         </Helmet>
-        <div className="row">
+        <div className="flex-column">
           {projectList.map(({ node }) => {
             return (
               <Card
